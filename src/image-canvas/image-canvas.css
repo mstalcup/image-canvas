@@ -1,0 +1,44 @@
+.container {
+    padding: 15px;
+}
+.colors-container {
+    width: 50%;
+}
+.colors-container span {
+    vertical-align: top;
+    line-height: 24px;
+}
+.color-div {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 2px solid #484848;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #484848;
+    border-radius: 2px;
+    padding: 0;
+    margin-right: 5px;
+}
+input[type="color"].hidden {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
